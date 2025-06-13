@@ -1,0 +1,25 @@
+	body {font-family: sans-serif; color: #000000;}
+      div#page {background-color: #cccccc; width: 100%;}
+      div.settingsContainer {width: 100%; position: fixed; bottom: 5px; text-align: center;}
+      div#settingsBox {-webkit-box-sizing: border-box; width: 300px; background-color: rgba(0,0,0, .8); padding: 10px; color: #f0f0f0; border: 1px solid rgba(0,0,0,.1); text-align: left; margin: 0px auto; display: block; box-shadow: 0px 0px 5px #000000; z-index: 5;}
+      div.settingsTitle {-webkit-box-sizing: border-box; text-align: center; height: 30px; color: #f0f0f0; font-weight: bold; margin: 0 auto; font-family: Arial, sans-serif; font-size: 22px}
+      div.settingOptions {text-align: left;}
+      span#showButton {display: none;color: #f0f0f0;}
+      span#hideButton {display: block;color: #f0f0f0;}
+      span#showButton, span#hideButton {font-size: 11px; text-transform: uppercase; font-weight: bold;margin-top: 5px; text-shadow: 0px 0px 5px #000000, 0px 0px 5px #000000;}
+      span:hover {color: #ffffff !important;}
+      div.settingsForm {text-align: center; width: 270px;font-size: 10px; font-weight: bold; padding: 5px; position: relative; left: -5px;}
+      label {display: inline-block; padding-bottom: 3px; font-size: 11px; font-weight: normal;}
+      input[type="text"] {margin-bottom: 10px; width: 100%; background-color: #ffffff; border: 1px solid rgba(0,0,0,.1); padding: 3px; outline: none; font-size: 12px; color: #333333;}
+      input[type="text"]:focus, textarea:focus {background-color: #e6e6e6 !important;}
+      button[type="button"] {margin-top: 20px; padding: 3px 10px; border: 0; outline: none; font-weight: bold; font-size: 14px; color: #232323; vertical-align: top; float: left;}
+      div#content {text-align: center; width: 750px; margin: auto; overflow: hidden; padding: 15px 0px; background-color: #ffffff; background-repeat: no-repeat; background-image: url(http://www.imakenews.com/mobiletemplates/Bg-Gradient-Gray-TR-01.png); background-position: 0% 0%;}
+      button[type="button"]:hover, div.settingsContainer span:hover, div.buttonContainer, div.button, div.button2, div#articleimg, div#articleimg2 {cursor: pointer;}
+      div#article, div#article2 {margin-bottom: 250px;}
+      div#columnLeft, div#columnLeft2, div#settingscolumnLeft {float: left; width: 50%!important; display: inline-block;}
+	  div#columnRight, div#columnRight2, div#settingscolumnRight {float: right; width: 50%!important; display: inline-block;}
+      div.buttonContainer {margin: auto; text-align: center; width: 750px; padding: 10px 0px; display: block; background-color: #000000; color: #ffffff;}
+      div.headerbutton {width: 25%; max-width: 170px; display: inline-block; padding: 5px; color: #ffffff;}
+      div.footerbutton {width: 33%; max-width: 230px; display: inline-block; padding: 5px; color: #ffffff;}
+      div#button, div#button2 {float:left; color: #ffffff; padding: 5px; text-decoration: none; text-align: center; text-transform: uppercase; background-color: #000000;}
+      div#button:hover, div#button2:hover {color: #ffffff; padding: 5px; text-decoration: none; text-transform: uppercase; background-color: #666666;}
